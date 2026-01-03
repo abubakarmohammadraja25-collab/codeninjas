@@ -28,4 +28,10 @@ def gradeCalculator():
         print("YOU SHALL WISH YOU WERE NEVER BORN!")
     else:
         print("fake grade please try again press the play button again to try again")
+        
 
+while True:
+    gradeCalculator()
+    restart = input("Do you want to calculate another grade? (yes/no): ").strip().lower()
+    if restart != 'yes':
+        break
