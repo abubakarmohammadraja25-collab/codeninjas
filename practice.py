@@ -8,24 +8,38 @@
 
 def gradeCalculator():
     grade = float(input("What is your grade in math beta?"))
-    if 90 <= grade <= 115:
+    if 97 <= grade <= 115:
+        print("A+")
+    elif 94 <= grade <= 96:
         print("A")
-        print("Good boy")
-    elif 80 <= grade <= 89:
+    elif 90 <= grade <= 93:
+        print("A-")
+        
+    elif 87 <= grade <= 89:
+        print("B+")
+    elif 84 <= grade <= 86:
         print("B")
-        print("Dissapointment")
-    elif 70 <= grade <= 79:
+    elif 80 <= grade <= 83:
+        print("B-")
+        
+    elif 77 <= grade <= 79:
+        print("C+")
+    elif 74 <= grade <= 76:
         print("C")
-        print("CHINTO GET MY SLIPPER!")
-    elif 60 <= grade <= 69:
-        print("C")
-        print("Actually, get my belt")
-    elif 50 <= grade <= 59:
+    elif 70 <= grade <= 73:
+        print("C-")
+       
+    elif 67 <= grade <= 69:
+        print("D+")
+    elif 64 <= grade <= 66:
         print("D")
-        print ("Beta !!!!!!")
-    elif 0 <= grade <= 49:
+    elif 60 <= grade <= 63:
+        print("D-")
+        
+    elif 0 <= grade <= 59:
         print("F")
-        print("YOU SHALL WISH YOU WERE NEVER BORN!")
+    
+        
     else:
         print("fake grade please try again press the play button again to try again")
         
