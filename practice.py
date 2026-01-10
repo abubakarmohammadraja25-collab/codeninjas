@@ -49,3 +49,4 @@ while True:
     restart = input("Do you want to calculate another grade? (yes/no): ").strip().lower()
     if restart != 'yes':
         break
+
